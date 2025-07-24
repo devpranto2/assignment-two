@@ -1,5 +1,7 @@
-
-.inter-normal{
+body{
+    background-color: #f5f8ff;
+}
+.inter-normall{
   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
   font-weight:400;
@@ -14,7 +16,7 @@
 
 
 .navbar{
-    width: 1440px;
+    width: 1140px;
     display: flex;
     justify-content: space-between;
     margin: 0px auto;
@@ -40,7 +42,35 @@
 }
 
 /* banner style  */
+.banner{
+    width: 1140px;
+    height: 460px;
+    display: flex;
+    justify-items: center;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.banner-title{
+    font-size: 3.5rem;
+    color:#000000;
+    margin: 0px;
+}
+.banner-title span{
+    color: #E95A08;
+}
+.banner-sub{
+    margin:0px;
+}
+.banner-des{
+    padding-top: 50px;
+}
 
+
+/* subtitle style for all  */
+.sub-titles{
+    font-size: 1.37rem;
+    color: rgba(0, 0, 0, 50%);
+}
 
 
 
@@ -56,6 +86,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    
 
 }
 .nav-img img{
