@@ -44,7 +44,7 @@ body{
 /* banner style  */
 .banner{
     width: 1140px;
-    height: 460px;
+    /* height: 460px; */
     display: flex;
     justify-items: center;
     margin: 0px auto;
@@ -93,11 +93,28 @@ body{
     height: 38px;
     width: 63px;
 }
-#ho{
+#ho, #sh{
     display: none;
 }
-#sh{
-    display: none;
+
+/* banner section  */
+.banner{
+    flex-direction: column-reverse;
+    width: 100%;
 }
+.banner-img img{
+    width: 100%;
+}
+.banner-title{
+    font-size: 2rem;
+}
+.banner-sub{
+    font-size: 1rem;
+}
+.banner-des{
+    margin: 0px 20px;
+}
+
+
 
 }
