@@ -64,6 +64,55 @@ body{
 .banner-des{
     padding-top: 50px;
 }
+/* plant section styles */
+.plants-title{
+    color: #E95A08;
+    font-size: 3.1rem;
+}
+.plants-title span{
+    color: black;
+}
+.plants-sub{
+    width:888px;
+    text-align: center;
+}
+.plants{
+    width: 1140px;
+    margin: 0px auto;
+    justify-items: center;
+}
+.plant-container{
+    display: grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap: 20px;
+}
+.plant{
+    text-align:center;
+}
+.plant-btn{
+    width: 100%;
+    background-color: #E95A08;
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    border: 1px solid #E95A08;
+    padding: 15px 0px;
+    margin: 0px;
+}
+.plant-title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom:1px;
+    color: #111111;
+}
+.plant-sub{
+    font-size: 1.6rem;
+    margin-top: 0px;
+    font-weight: bold;
+}
+
+
+
 
 
 /* subtitle style for all  */
