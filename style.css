@@ -111,6 +111,32 @@ body{
     font-weight: bold;
 }
 
+/* flower and plants lover section  */
+
+.flower-lover{
+    width: 1140px;
+    display: flex;
+    gap: 40px;
+    margin: 0px auto;
+    margin-top: 200px;
+}
+.lover-title{
+    width:500px ;
+    font-size: 3.125rem;
+    font-weight: bold;
+}
+.lover-img{
+    position: relative;
+}
+.loverimg-2 {
+    height: 286px;
+    width: 286px;
+    position: absolute;
+    top: -135px;
+    right: -100px;
+    
+}
+
 
 
 
@@ -187,7 +213,28 @@ body{
     font-size: 16px;
     
 }
+/* flower and plants lover section responsive */
 
+.flower-lover{
+    flex-direction: column;
+    width: 100%;
+    width: 95%;
+}
+.loverimg-1{
+    width: 100%;
+}
+.loverimg-2{
+    display: none;
+}
+.lover-title{
+   
+    width: 100%;
+    font-size: 1.5rem;
+    display: block;
+}
+.lover-sub{
+    font-size: 14px;
+}
 
 
 
