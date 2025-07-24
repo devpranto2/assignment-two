@@ -163,6 +163,34 @@ body{
 .banner-des{
     margin: 0px 20px;
 }
+ /* plants section responsive */
+.plants{
+    width: 100%;
+}
+.plants-sub{
+    width: 100%;
+    margin: 10px;
+}
+.plant{
+    width: 100%;  
+}
+.plant-container{
+    width: 95%;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+
+}
+.plant-img{
+    width: 100%;
+}
+.plant-btn,.plant-sub,.plant-title{
+    font-size: 16px;
+    
+}
+
+
+
+
 
 
 
