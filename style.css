@@ -136,12 +136,61 @@ body{
     right: -100px;
     
 }
+.lover-sub{
+    text-align: left;
+}
+/* deal section */
+.deal{
+    width: 1140px;
+    margin: 0px auto;
+    margin-top: 100px;
+    
+}
+
+/* join section  */
+
+.join{
+    background-image: url(assets/news-letter-bg.png);
+    height: 530px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-top: 100px;
+}
+.join-content h3{
+    font-size: 3.125rem;
+}
+
+
+.join-form{
+    width: 830px;
+    display: flex;
+}
+
+.join-feild{
+  padding: 20px;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  flex:1 ;
+}
+
+.join-btn {
+  padding: 10px 40px;
+  font-size: 1rem;
+  background: #ff6600;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
 
 
 
 
-
-/* subtitle style for all  */
 .sub-titles{
     font-size: 1.37rem;
     color: rgba(0, 0, 0, 50%);
@@ -234,11 +283,29 @@ body{
 }
 .lover-sub{
     font-size: 14px;
+    text-align: left;
 }
 
+/* join section */
+.join{
+    width:95%;
+    margin: 10px;
+    margin-top: 40px;
+    height: 400px;
 
-
-
+}
+.join-form{
+    width: 50%;
+    gap: 0;
+}
+.join-content h3{
+    font-size: 1.2rem;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.join-btn{
+    padding:10px 20px;
+}
 
 
 }
