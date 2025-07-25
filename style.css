@@ -224,6 +224,96 @@ body{
     padding-top: 10px;
 }
 
+/* challage section */ /* challage section */ /* challage section */
+.deals{
+    width: 1140px;
+    margin: 0px auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.deals-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+.deals-title{
+    font-size: 3rem;
+    color: #E95A08;
+}
+.deals-title span{
+    color: black;
+}
+.deals-sub{
+    width: 888px;
+    text-align: center;
+    margin: 0px auto;
+}
+
+.box-s{
+    position: relative;
+    
+    color: white;
+}
+
+.deal-img1 {
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+.box-2{
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.deal-img2{
+    position: absolute;
+    right: 20%;
+    top: 30%;
+}
+.deal-img3{
+    position: absolute;
+    right: 25%;
+    top: 40%;
+}
+.box-s img,.box-2 img{
+    border-radius: 10px;
+     /* background: rgba(0, 0, 0, 0.4);
+    filter: brightness(70%) contrast(70%); */
+     filter: brightness(70%); 
+    
+} 
+.box-1{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.deal-btn{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+.deal-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin:0px;
+}
+.deal-title2{
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin:0px;
+}
+.deal-btn2{
+  background: none;
+  border: none;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
 
 
 
