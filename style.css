@@ -187,6 +187,43 @@ body{
   border: none;
   cursor: pointer;
 }
+/* footer section styles */
+.footer{
+    width: 1140px;
+    margin: 0px auto;
+    margin-top: 100px;
+}
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.footer-logo{
+    width: 360px;
+}
+.footer-logo img{
+    width: 135px;
+    height: 80px;
+}
+
+.footer-item ul{
+    list-style: none;
+    gap: 32px;
+    display: flex;
+    flex-direction: column;
+}
+.footer-item li a{
+    color: gray;
+    gap: 10px;
+}
+.footer-icon{
+    display: flex;
+    gap: 20px;
+}
+.img-twi{
+    padding-top: 10px;
+}
+
 
 
 
@@ -308,4 +345,21 @@ body{
 }
 
 
+/* footer section */
+.footer{
+width: 100%;
+margin-bottom: 30px;
+}
+.footer-container{
+    flex-direction: column;
+    width:calc(100%-10px) ;
+    padding-left: 10px;
+}
+.footer-item ul{
+    padding: 0px;
+    margin: 0px;
+}
+.footer-sub{
+    font-size: 1rem;
+}
 }
