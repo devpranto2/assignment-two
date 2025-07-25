@@ -492,14 +492,15 @@ body{
   text-decoration: underline;
 }
 .deal-title{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     font-weight: bold;
     margin:0px;
 }
 .deal-title2{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: bold;
     margin:0px;
+
 }
 .deal-btn2{
   background: none;
